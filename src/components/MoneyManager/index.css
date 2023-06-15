@@ -1,0 +1,254 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 768px) {
+  .bg-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    width: 85%;
+  }
+}
+
+.welcome-section {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  text-align: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome-section {
+    text-align: left;
+  }
+}
+
+.greeting {
+  color: #475569;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .greeting {
+    font-size: 38px;
+  }
+}
+
+.welcome-text {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.app-name {
+  color: #0b69ff;
+}
+
+.balance-enquiry-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .balance-enquiry-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    flex-direction: row;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    width: 35%;
+    min-width: 400px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+}
+
+.form-title {
+  color: #475569;
+  font-size: 18px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.input-label-container {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  color: #7e858e;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input-container {
+  height: 40px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Roboto';
+  padding-left: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 90%;
+}
+
+.add-btn {
+  color: #ffffff;
+  background-color: #0b69ff;
+  font-size: 13px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  padding: 14px 16px 14px 16px;
+  border: none;
+  border-radius: 12px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.transaction-history-container {
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-history-container {
+    width: 60%;
+    align-self: stretch;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+  }
+}
+
+.history-title {
+  color: #475569;
+  font-size: 17px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.transaction-table {
+  width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-table {
+    width: 80%;
+  }
+}
+
+.table-header-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+  height: 50px;
+}
+
+.table-title {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 20px;
+  width: 24%;
+}
+
+@media screen and (min-width: 768px) {
+  .table-title {
+    width: 25%;
+  }
+}
+
+.table-amount {
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 24%;
+}
+
+@media screen and (min-width: 768px) {
+  .table-amount {
+    width: 25%;
+  }
+}
+
+.table-type {
+  flex-grow: 1;
+  width: 37%;
+  color: #475569;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .table-type {
+    width: 40%;
+  }
+}

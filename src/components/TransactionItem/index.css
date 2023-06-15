@@ -1,0 +1,86 @@
+.transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  border-top: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .transaction-item {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+.item-title {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .item-title {
+    font-size: 14px;
+  }
+}
+
+.item-amount {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .item-amount {
+    font-size: 14px;
+  }
+}
+
+.item-type {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  width: 30%;
+}
+
+@media screen and (min-width: 768px) {
+  .item-type {
+    font-size: 14px;
+  }
+}
+
+.delete-container {
+  display: flex;
+  width: 10%;
+}
+
+.delete-btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-icon {
+  background: transparent;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  border: none;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .delete-icon {
+    margin-right: 24px;
+  }
+}
